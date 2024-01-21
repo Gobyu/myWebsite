@@ -25,6 +25,10 @@ function SidePanel() {
         <FontAwesomeIcon icon={faChevronRight} className="chevron" />
         &nbsp;Projects
       </a>
+      <a className="SideBarList" href="#Contact">
+        <FontAwesomeIcon icon={faChevronRight} className="chevron" />
+        &nbsp;Contact
+      </a>
       <div className="Links">
         <a href="https://github.com/gobyu" target="_blank">
           <FontAwesomeIcon icon={faGithub} className="LinkIcon" />

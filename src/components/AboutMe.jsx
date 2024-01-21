@@ -12,17 +12,8 @@ const AboutMe = () => {
       </div>
       <div>
         <p className="content">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-          corporis nemo est ipsa ea minus culpa, sunt repudiandae fugit in omnis
-          mollitia dolore corrupti non, recusandae provident praesentium? Quam
-          quia recusandae quasi adipisci dolore libero beatae, sint cum saepe.
-          Accusantium, possimus dignissimos eius totam minus culpa voluptatum
-          numquam quidem obcaecati quisquam blanditiis veritatis itaque officiis
-          optio magni mollitia sit quae odio error id minima! Blanditiis, sequi
-          iste? Facilis quod nobis hic libero inventore! Fugiat molestias
-          magnam, nostrum dolore itaque quos optio provident qui, quis dolor
-          maxime a molestiae, eveniet distinctio ducimus sequi dolores veniam
-          magni ullam? Distinctio ullam explicabo itaque.
+          Hi, I'm Lebron James. I'm the all-time leading scorer in the NBA and
+          currently the oldest player in the NBA. Cum.
         </p>
       </div>
     </>

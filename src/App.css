@@ -1,15 +1,15 @@
 #root {
   margin: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .SidePanel {
-  text-align: center;
+  text-align: left;
   position: sticky;
   top: 1rem;
   left: 0;
   height: 100%;
-  background-color: #10141c;
+  background-color: #181818;
   padding: 10px;
   border-radius: 10px;
   margin-right: 1rem;
@@ -21,12 +21,11 @@
 .content {
   font-size: 1rem;
   margin-left: 1rem;
+  text-align: left;
 }
 
 .MainPanel {
-  background-color: #10141c;
-  padding: 10px;
-  border-radius: 10px;
+  background-color: #181818;
   margin-bottom: 1rem;
 }
 
@@ -38,7 +37,7 @@
 
 .Links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .Selfie {
@@ -62,4 +61,22 @@
 .LinkIcon{
   font-size:25px;
   margin: 5px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.SectionComponent {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  display: flex;
+}
+
+.SectionImage {
+  width: 80px;
+  border-radius: 40px;
+  margin-right: 1rem;
 }

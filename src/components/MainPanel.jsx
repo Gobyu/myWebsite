@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Education from "./Education";
 import Employment from "./Employment";
+import Contact from "./Contact";
 
 const MainPanel = () => {
   return (
@@ -11,6 +12,7 @@ const MainPanel = () => {
       <Education />
       <Employment />
       <Projects />
+      <Contact />
     </div>
   );
 };
