@@ -31,7 +31,7 @@ const Contact = ({ CSSTheme }) => {
           icon={faLocation}
           className={CSSTheme + "-ContactIcon"}
         />
-        &nbsp;&nbsp;your mom's house
+        &nbsp;&nbsp;Toronto, ON
       </p>
     </div>
   );

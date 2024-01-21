@@ -19,13 +19,13 @@ function SidePanel({ changeTheme, currentTheme, dark, CSSTheme }) {
   return (
     <div className={CSSTheme + "-SidePanel"}>
       <div className="Gobyu">
+        <h1 className={CSSTheme + "-no-margin"}>Gobyu</h1>
         <button onClick={changeTheme} className={CSSTheme + "-ThemeButton"}>
           <FontAwesomeIcon
             icon={theme}
             className={CSSTheme + "-ThemeButtonIcon"}
           />
         </button>
-        <h1 className={CSSTheme + "-no-margin"}>Gobyu</h1>
       </div>
       <a className={CSSTheme + "-SideBarList"} href="#AboutMe">
         <FontAwesomeIcon

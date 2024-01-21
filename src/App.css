@@ -7,12 +7,9 @@
 }
 
 .Selfie {
-  width: 250px;
+  width: 200px;
   margin-left: 1rem;
-}
-
-#AboutMe {
-  display: flex; 
+  border-radius: 25px;
 }
 
 .SectionImage {
@@ -23,12 +20,17 @@
 
 /* Dark Theme */
 
+#dark-AboutMe {
+  display: flex; 
+}
+
 .dark-App {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   background-color: #181818;
   color: white;
+  padding: 1rem;
 }
 
 .dark-SectionTitle {
@@ -106,6 +108,7 @@
   border-width: 0;
   background-color: #181818;
   color: white;
+  margin-left: 0.5rem;
 }
 
 .dark-ThemeButton:hover {
@@ -114,6 +117,10 @@
 
 /* Light Theme */
 
+#light-AboutMe {
+  display: flex; 
+}
+
 .light-App {
   display: flex;
   justify-content: flex-start;
@@ -121,6 +128,7 @@
   background-color: white;
   color: black;
   width: 100vw;
+  padding: 1rem;
 }
 
 .light-SectionTitle {
@@ -202,6 +210,7 @@
   border-width: 0;
   background-color: #ffffff;
   color: black;
+  margin-left: 0.5rem;
 }
 
 .light-ThemeButton:hover {
