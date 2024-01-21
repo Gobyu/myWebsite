@@ -5,7 +5,7 @@ const UOttawa = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://uottawa.ca" target="_blank">
-          <img src="/src/assets/uottawa.png" className="SectionImage" />
+          <img src="/public/assets/uottawa.png" className="SectionImage" />
         </a>
       </div>
       <div className="SectionDetails">

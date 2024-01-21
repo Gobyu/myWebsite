@@ -5,7 +5,7 @@ export const Seneca = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://senecapolytechnic.ca" target="_blank">
-          <img src="/src/assets/seneca.png" className="SectionImage" />
+          <img src="/public/assets/seneca.png" className="SectionImage" />
         </a>
       </div>
       <div className="SectionDetails">

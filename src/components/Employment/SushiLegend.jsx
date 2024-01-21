@@ -5,7 +5,7 @@ const SushiLegend = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://sushilegend.ca" target="_blank">
-          <img src="/src/assets/sushilegend.jpg" className="SectionImage" />
+          <img src="/public/assets/sushilegend.jpg" className="SectionImage" />
         </a>
       </div>
       <div className="SectionDetails">

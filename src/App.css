@@ -27,6 +27,7 @@
 .MainPanel {
   background-color: #181818;
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .App {

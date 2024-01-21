@@ -5,7 +5,7 @@ const Chatime = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://chatime.ca" target="_blank">
-          <img src="/src/assets/chatime.png" className="SectionImage" />
+          <img src="/public/assets/chatime.png" className="SectionImage" />
         </a>
       </div>
       <div className="SectionDetails">

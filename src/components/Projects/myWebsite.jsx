@@ -5,7 +5,7 @@ const MyWebsite = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://gobyu.github.io" target="_blank">
-          <img src="/src/assets/reactjs.png" className="SectionImage" />
+          <img src="/public/assets/reactjs.png" className="SectionImage" />
         </a>
       </div>
       <div className="SectionDetails">

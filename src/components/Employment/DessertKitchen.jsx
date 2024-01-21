@@ -5,7 +5,10 @@ const DessertKitchen = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://dessertkitchen.ca/" target="_blank">
-          <img src="/src/assets/dessertkitchen.jpg" className="SectionImage" />
+          <img
+            src="/public/assets/dessertkitchen.jpg"
+            className="SectionImage"
+          />
         </a>
       </div>
       <div className="SectionDetails">
