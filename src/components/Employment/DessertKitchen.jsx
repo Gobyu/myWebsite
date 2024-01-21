@@ -6,7 +6,7 @@ const DessertKitchen = () => {
       <div className="SectionImageDiv">
         <a href="https://dessertkitchen.ca/" target="_blank">
           <img
-            src="/public/assets/dessertkitchen.jpg"
+            src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/dessertkitchen.jpg?raw=true"
             className="SectionImage"
           />
         </a>

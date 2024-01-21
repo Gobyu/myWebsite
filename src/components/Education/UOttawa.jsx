@@ -5,7 +5,10 @@ const UOttawa = () => {
     <div className="SectionComponent">
       <div className="SectionImageDiv">
         <a href="https://uottawa.ca" target="_blank">
-          <img src="/public/assets/uottawa.png" className="SectionImage" />
+          <img
+            src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/uottawa.png?raw=true"
+            className="SectionImage"
+          />
         </a>
       </div>
       <div className="SectionDetails">
