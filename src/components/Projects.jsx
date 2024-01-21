@@ -1,11 +1,11 @@
 import React from "react";
 import MyWebsite from "./Projects/myWebsite";
 
-const Projects = () => {
+const Projects = ({ CSSTheme }) => {
   return (
     <div id="Projects">
       <h1 className="SectionTitle">Projects</h1>
-      <MyWebsite />
+      <MyWebsite CSSTheme={CSSTheme} />
     </div>
   );
 };

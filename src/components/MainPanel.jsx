@@ -5,14 +5,14 @@ import Education from "./Education";
 import Employment from "./Employment";
 import Contact from "./Contact";
 
-const MainPanel = () => {
+const MainPanel = ({ CSSTheme }) => {
   return (
-    <div className="MainPanel">
-      <AboutMe />
-      <Education />
-      <Employment />
-      <Projects />
-      <Contact />
+    <div className={CSSTheme + "-MainPanel"}>
+      <AboutMe CSSTheme={CSSTheme} />
+      <Education CSSTheme={CSSTheme} />
+      <Employment CSSTheme={CSSTheme} />
+      <Projects CSSTheme={CSSTheme} />
+      <Contact CSSTheme={CSSTheme} />
     </div>
   );
 };

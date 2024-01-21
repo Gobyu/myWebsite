@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Seneca = () => {
+export const Seneca = ({ CSSTheme }) => {
   return (
-    <div className="SectionComponent">
-      <div className="SectionImageDiv">
+    <div className={CSSTheme + "-SectionComponent"}>
+      <div className="-SectionImageDiv">
         <a href="https://senecapolytechnic.ca" target="_blank">
           <img
             src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/seneca.png?raw=true"
@@ -11,12 +11,14 @@ export const Seneca = () => {
           />
         </a>
       </div>
-      <div className="SectionDetails">
-        <h2 className="no-margin">Seneca Polytechnic</h2>
-        <p className="no-margin">
+      <div className={CSSTheme + "-SectionDetails"}>
+        <h2 className={CSSTheme + "-no-margin"}>Seneca Polytechnic</h2>
+        <p className={CSSTheme + "-no-margin"}>
           Honour Bachelor of Technology - Software Development
         </p>
-        <p className="no-margin">01 / 2024 - currently enrolled</p>
+        <p className={CSSTheme + "-no-margin"}>
+          01 / 2024 - currently enrolled
+        </p>
       </div>
     </div>
   );

@@ -1,44 +1,9 @@
 #root {
-  margin: 1rem;
   text-align: left;
 }
 
-.SidePanel {
-  text-align: left;
-  position: sticky;
-  top: 1rem;
-  left: 0;
-  height: 100%;
-  background-color: #181818;
-  padding: 10px;
-  border-radius: 10px;
-  margin-right: 1rem;
-  white-space: nowrap;
+.Gobyu {
   display: flex;
-  flex-direction: column;
-}
-
-.content {
-  font-size: 1rem;
-  margin-left: 1rem;
-  text-align: left;
-}
-
-.MainPanel {
-  background-color: #181818;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-}
-
-.App {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-}
-
-.Links {
-  display: flex;
-  justify-content: left;
 }
 
 .Selfie {
@@ -50,34 +15,195 @@
   display: flex; 
 }
 
-.SectionTitle {
-  text-align: left;
-  margin-left: 1rem;
-}
-
-.SideBarList {
-  font-size: 2rem;
-}
-
-.LinkIcon{
-  font-size:25px;
-  margin: 5px;
-}
-
-.no-margin {
-  margin: 0;
-}
-
-.SectionComponent {
-  margin: 1rem;
-  padding: 1rem;
-  background-color: rgb(32, 32, 32);
-  border-radius: 10px;
-  display: flex;
-}
-
 .SectionImage {
   width: 80px;
   border-radius: 40px;
   margin-right: 1rem;
+}
+
+/* Dark Theme */
+
+.dark-App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: #181818;
+  color: white;
+}
+
+.dark-SectionTitle {
+  text-align: left;
+  margin-left: 1rem;
+  color: white;
+}
+
+.dark-SideBarList {
+  font-size: 2rem;
+  color: white;
+}
+
+.dark-SidePanel {
+  text-align: left;
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  height: 100%;
+  background-color: #181818;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-content {
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-align: left;
+  color: white;
+}
+
+.dark-MainPanel {
+  background-color: #181818;
+  color:white;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.dark-Links {
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+.dark-SectionComponent {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+.dark-no-margin {
+  margin: 0;
+  color: white;
+}
+
+.dark-LinkIcon {
+  font-size:25px;
+  margin: 5px;
+}
+
+.dark-ThemeButtonIcon {
+  font-size: 50px;
+}
+
+.dark-ThemeButton {
+  width: 66px;
+  border-width: 0;
+  background-color: #181818;
+  color: white;
+}
+
+.dark-ThemeButton:hover {
+  color: rgb(128, 128, 128);
+}
+
+/* Light Theme */
+
+.light-App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  width: 100vw;
+}
+
+.light-SectionTitle {
+  text-align: left;
+  margin-left: 1rem;
+  color: black;
+}
+
+.light-SideBarList {
+  font-size: 2rem;
+  color: black;
+}
+
+.light-SidePanel {
+  text-align: left;
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  height: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.light-content {
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-align: left;
+  color: black;
+}
+
+.light-MainPanel {
+  background-color: white;
+  color:black;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.light-Links {
+  color: black;
+  display: flex;
+  justify-content: left;
+}
+
+.light-SectionComponent {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(200, 200, 200);
+  color: black;
+  border-radius: 10px;
+  display: flex;
+}
+
+.light-no-margin {
+  margin: 0;
+  color: black;
+}
+
+.light-LinkIcon{
+  font-size:25px;
+  margin: 5px;
+  color: black;
+}
+.light-LinkIcon:hover{
+  color: #a0a0a0;
+}
+
+.light-ThemeButtonIcon {
+  font-size: 50px;
+}
+
+.light-ThemeButton {
+  width: 66px;
+  border-width: 0;
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-ThemeButton:hover {
+  color: rgb(128, 128, 128);
 }

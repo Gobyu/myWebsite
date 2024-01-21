@@ -1,9 +1,9 @@
 import React from "react";
 
-const Chatime = () => {
+const Chatime = ({ CSSTheme }) => {
   return (
-    <div className="SectionComponent">
-      <div className="SectionImageDiv">
+    <div className={CSSTheme + "-SectionComponent"}>
+      <div className={CSSTheme + "-SectionImageDiv"}>
         <a href="https://chatime.ca" target="_blank">
           <img
             src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/chatime.png?raw=true"
@@ -11,9 +11,9 @@ const Chatime = () => {
           />
         </a>
       </div>
-      <div className="SectionDetails">
-        <h2 className="no-margin">Chatime - Tearista</h2>
-        <p className="no-margin">
+      <div className={CSSTheme + "-SectionDetails"}>
+        <h2 className={CSSTheme + "-no-margin"}>Chatime - Tearista</h2>
+        <p className={CSSTheme + "-no-margin"}>
           375 Dalhousie Street | 04 / 2023 - 09 / 2023
         </p>
       </div>
