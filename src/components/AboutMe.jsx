@@ -11,10 +11,7 @@ const AboutMe = () => {
         ></img>
       </div>
       <div>
-        <p className="content">
-          Hi, I'm Lebron James. I'm the all-time leading scorer in the NBA and
-          currently the oldest player in the NBA. Cum.
-        </p>
+        <p className="content">cum</p>
       </div>
     </>
   );
