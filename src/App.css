@@ -1,0 +1,62 @@
+#root {
+  margin: 1rem;
+  text-align: center;
+}
+
+.SidePanel {
+  text-align: center;
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  height: 100%;
+  background-color: #10141c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainPanel {
+  background-color: #10141c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.LinkImage {
+  width: 50px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+}
+
+.Selfie {
+  width: 250px;
+  border-radius: 125px;
+  margin-left: 1rem;
+}
+
+#AboutMe {
+  display: flex; 
+}
+
+.SectionTitle {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.SideBarList {
+  font-size: 2rem;
+}
