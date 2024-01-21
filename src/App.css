@@ -18,6 +18,11 @@
   flex-direction: column;
 }
 
+.content {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
 .MainPanel {
   background-color: #10141c;
   padding: 10px;
@@ -31,12 +36,6 @@
   flex-direction: row;
 }
 
-.LinkImage {
-  width: 50px;
-  border-radius: 25px;
-  margin: 5px;
-}
-
 .Links {
   display: flex;
   justify-content: center;
@@ -44,7 +43,6 @@
 
 .Selfie {
   width: 250px;
-  border-radius: 125px;
   margin-left: 1rem;
 }
 
@@ -59,4 +57,9 @@
 
 .SideBarList {
   font-size: 2rem;
+}
+
+.LinkIcon{
+  font-size:25px;
+  margin: 5px;
 }

@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div id="Education">
       <h1 className="SectionTitle">Education</h1>
-      <p>
+      <p className="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci
         debitis ipsum possimus nemo doloremque saepe eius quibusdam minus omnis.
         Praesentium molestiae facilis in voluptates, possimus necessitatibus

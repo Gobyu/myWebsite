@@ -11,7 +11,7 @@ const AboutMe = () => {
         ></img>
       </div>
       <div>
-        <p>
+        <p className="content">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
           corporis nemo est ipsa ea minus culpa, sunt repudiandae fugit in omnis
           mollitia dolore corrupti non, recusandae provident praesentium? Quam

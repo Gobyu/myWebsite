@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div id="Projects">
       <h1 className="SectionTitle">Projects</h1>
-      <p>
+      <p className="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi
         delectus, autem magni quis officiis qui ipsum labore. Odio harum
         mollitia eveniet perferendis iste eius sapiente! Ducimus cupiditate
