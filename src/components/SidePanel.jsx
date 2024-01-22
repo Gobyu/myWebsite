@@ -27,7 +27,7 @@ function SidePanel({ changeTheme, currentTheme, dark, CSSTheme }) {
           />
         </button>
       </div>
-      <a className={CSSTheme + "-SideBarList"} href="#AboutMe">
+      <a className={CSSTheme + "-SideBarList"} href={"#" + CSSTheme + "-Top"}>
         <FontAwesomeIcon
           icon={faChevronRight}
           className={CSSTheme + "-chevron"}

@@ -4,7 +4,7 @@ import UOttawa from "./Education/UOttawa";
 
 const Education = ({ CSSTheme }) => {
   return (
-    <div id={CSSTheme + "-Education"}>
+    <div id="Education">
       <h1 className={CSSTheme + "-SectionTitle"}>Education</h1>
       <Seneca CSSTheme={CSSTheme} />
       <UOttawa CSSTheme={CSSTheme} />

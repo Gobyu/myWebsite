@@ -3,7 +3,9 @@ import React from "react";
 const AboutMe = ({ CSSTheme }) => {
   return (
     <>
-      <h1 className={CSSTheme + "-SectionTitle"}>John Zhao</h1>
+      <h1 className={CSSTheme + "-SectionTitle"} id={CSSTheme + "-Top"}>
+        John Zhao
+      </h1>
       <div id={CSSTheme + "-AboutMe"}>
         <img
           src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/selfie.jpg?raw=true"
