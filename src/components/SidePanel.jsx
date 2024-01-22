@@ -19,7 +19,9 @@ function SidePanel({ changeTheme, currentTheme, dark, CSSTheme }) {
   return (
     <div className={CSSTheme + "-SidePanel"}>
       <div className="Gobyu">
-        <h1 className={CSSTheme + "-no-margin"}>Gobyu</h1>
+        <a href="https://gobyu.github.io">
+          <h1 className={CSSTheme + "-no-margin"}>Gobyu</h1>
+        </a>
         <button onClick={changeTheme} className={CSSTheme + "-ThemeButton"}>
           <FontAwesomeIcon
             icon={theme}
@@ -62,7 +64,7 @@ function SidePanel({ changeTheme, currentTheme, dark, CSSTheme }) {
         />
         &nbsp;Contact
       </a>
-      <div className={CSSTheme + "-Links"}>
+      <div>
         <a href="https://github.com/gobyu" target="_blank">
           <FontAwesomeIcon icon={faGithub} className={CSSTheme + "-LinkIcon"} />
         </a>

@@ -9,8 +9,8 @@ import {
 
 const Contact = ({ CSSTheme }) => {
   return (
-    <div id={CSSTheme + "-Contact"}>
-      <h1 className={CSSTheme + "-SectionTitle"}>Contact</h1>
+    <div id="Contact">
+      <h1 className="SectionTitle">Contact</h1>
       <p className={CSSTheme + "-content"}>
         <FontAwesomeIcon
           icon={faEnvelope}
