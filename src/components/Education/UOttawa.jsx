@@ -15,7 +15,7 @@ const UOttawa = ({ CSSTheme }) => {
         <h2 className={CSSTheme + "-no-margin"}>University of Ottawa</h2>
         <p className={CSSTheme + "-no-margin"}>BASc Computer Engineering</p>
         <p className={CSSTheme + "-no-margin"}>
-          09 / 2020 - 09 / 2023 &#40;withdrew program&#41;
+          09 / 2020 - 09 / 2023 &#40;withdrew&#41;
         </p>
       </div>
     </div>

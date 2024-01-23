@@ -15,14 +15,6 @@ const AboutMe = ({ CSSTheme }) => {
           src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/mycat.jpg?raw=true"
           className="Selfie"
         ></img>
-        <img
-          src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/mycat2.jpg?raw=true"
-          className="Selfie"
-        ></img>
-        <img
-          src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/wheresmyson.jpg?raw=true"
-          className="Selfie"
-        ></img>
       </div>
       <div>
         <p className={CSSTheme + "-content"}>
