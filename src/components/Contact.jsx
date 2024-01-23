@@ -9,30 +9,35 @@ import {
 
 const Contact = ({ CSSTheme }) => {
   return (
-    <div id="Contact">
-      <h1 className="SectionTitle">Contact</h1>
-      <p className={CSSTheme + "-content"}>
-        <FontAwesomeIcon
-          icon={faEnvelope}
-          className={CSSTheme + "-ContactIcon"}
-        />
-        &nbsp;&nbsp;john.zhao166@gmail.com
-        <br />
-        <FontAwesomeIcon icon={faPhone} className={CSSTheme + "-ContactIcon"} />
-        &nbsp;&nbsp;+1 647-858-1069
-        <br />
-        <FontAwesomeIcon
-          icon={faDiscord}
-          className={CSSTheme + "-ContactIcon"}
-        />
-        &nbsp;&nbsp;gobyu
-        <br />
-        <FontAwesomeIcon
-          icon={faLocation}
-          className={CSSTheme + "-ContactIcon"}
-        />
-        &nbsp;&nbsp;Toronto, ON
-      </p>
+    <div className={CSSTheme + "-Home"}>
+      <div id="Contact">
+        <h1 className="SectionTitle">Contact</h1>
+        <p className={CSSTheme + "-content"}>
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          &nbsp;&nbsp;john.zhao166@gmail.com
+          <br />
+          <FontAwesomeIcon
+            icon={faPhone}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          &nbsp;&nbsp;+1 647-858-1069
+          <br />
+          <FontAwesomeIcon
+            icon={faDiscord}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          &nbsp;&nbsp;gobyu
+          <br />
+          <FontAwesomeIcon
+            icon={faLocation}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          &nbsp;&nbsp;Toronto, ON
+        </p>
+      </div>
     </div>
   );
 };

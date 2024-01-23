@@ -17,7 +17,7 @@ const Header = ({ changeTheme, currentTheme, CSSTheme, dark }) => {
   return (
     <div className={CSSTheme + "-Header"}>
       <div className="left-header">
-        <a href="https://gobyu.github.io">
+        <a href="/">
           <h1 className={CSSTheme + "-Name"}>Gobyu</h1>
         </a>
         <a href="https://github.com/gobyu" target="_blank">

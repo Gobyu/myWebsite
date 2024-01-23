@@ -11,8 +11,6 @@ const MainPanel = ({ CSSTheme }) => {
       <AboutMe CSSTheme={CSSTheme} />
       <Education CSSTheme={CSSTheme} />
       <Employment CSSTheme={CSSTheme} />
-      <Projects CSSTheme={CSSTheme} />
-      <Contact CSSTheme={CSSTheme} />
     </div>
   );
 };
