@@ -43,13 +43,13 @@ const Header = ({ changeTheme, currentTheme, CSSTheme, dark }) => {
             className={CSSTheme + "-ThemeButtonIcon"}
           />
         </button>
-        <Link to="/contact" className={CSSTheme + "-links"}>
+        <Link to="/contact" className={CSSTheme + "-links-big"}>
           Contact
         </Link>
-        <Link to="/projects" className={CSSTheme + "-links"}>
+        <Link to="/projects" className={CSSTheme + "-links-big"}>
           Projects
         </Link>
-        <Link to="/life" className={CSSTheme + "-links"}>
+        <Link to="/life" className={CSSTheme + "-links-big"}>
           Life
         </Link>
       </div>

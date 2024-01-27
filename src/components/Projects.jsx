@@ -1,5 +1,6 @@
 import React from "react";
 import MyWebsite from "./Projects/myWebsite";
+import SoonTM from "./Projects/SoonTM";
 
 const Projects = ({ CSSTheme }) => {
   return (
@@ -7,6 +8,7 @@ const Projects = ({ CSSTheme }) => {
       <div id="Projects">
         <h1 className="SectionTitle">Projects</h1>
         <MyWebsite CSSTheme={CSSTheme} />
+        <SoonTM CSSTheme={CSSTheme} />
       </div>
     </div>
   );

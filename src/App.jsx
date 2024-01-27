@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact.jsx";
 import Projects from "./components/Projects.jsx";
 import Life from "./components/Life.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -24,9 +25,6 @@ function App() {
   };
 
   let CSSTheme = currentCSS();
-  useEffect(() => {
-    CSSTheme = currentCSS();
-  }, [CSSTheme]);
 
   const currentTheme = () => {
     if (dark) {
@@ -36,7 +34,7 @@ function App() {
     }
   };
   return (
-    <>
+    <div className={CSSTheme + "-App"}>
       <BrowserRouter>
         <Header
           changeTheme={changeTheme}
@@ -60,8 +58,9 @@ function App() {
           <Route path="projects" element={<Projects CSSTheme={CSSTheme} />} />
           <Route path="life" element={<Life CSSTheme={CSSTheme} />} />
         </Routes>
+        <Footer CSSTheme={CSSTheme} />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

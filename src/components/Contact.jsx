@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import {
+  faDiscord,
+  faSteam,
+  faBattleNet,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faPhone,
   faLocation,
+  faQuestion,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = ({ CSSTheme }) => {
+  const [visible, setVisible] = useState(false);
+
+  const changeVisible = () => {
+    setVisible(!visible);
+  };
+
+  const currentVisible = () => {
+    if (visible) {
+      return "visible";
+    } else {
+      return "invisible";
+    }
+  };
+
   return (
     <div className={CSSTheme + "-Home"}>
       <div id="Contact">
@@ -36,7 +55,42 @@ const Contact = ({ CSSTheme }) => {
             className={CSSTheme + "-ContactIcon"}
           />
           &nbsp;&nbsp;Toronto, ON
+          <br />
         </p>
+        <div className={currentVisible()}>
+          <h2 className={CSSTheme + "-no-margin"}>Other</h2>
+          <FontAwesomeIcon
+            icon={faSteam}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          <a
+            href="https://steamcommunity.com/profiles/76561198344503524/"
+            target="_blank"
+            className={CSSTheme + "-links"}
+          >
+            &nbsp;gobyu
+          </a>
+          <br />
+          <FontAwesomeIcon
+            icon={faBattleNet}
+            className={CSSTheme + "-ContactIcon"}
+          />
+          &nbsp;&nbsp;Exitsignn#1230
+          <br />
+          Riot Games: Gobyu#NA1
+          <br />
+          MapleStory &#40;Kronos&#41;: Gobyu
+          <br />
+          Warframe: Signs
+        </div>
+      </div>
+      <div className="visibility-button-div">
+        <button onClick={changeVisible} className="visibility-button">
+          <FontAwesomeIcon
+            icon={faQuestion}
+            className={CSSTheme + "-question-mark"}
+          />
+        </button>
       </div>
     </div>
   );

@@ -51,6 +51,7 @@
 .life-images {
   display: flex;
   justify-content: flex-start;
+  margin: 1rem;
 }
 
 @keyframes fadeIn {
@@ -59,10 +60,17 @@
 }
 
 /* Dark Theme */
+
+.dark-App {
+  height: 100vh;
+  background-color:#181818;
+  animation: fadeIn 2s;
+}
+
 .dark-Header {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position:sticky;
   top: 0;
   background-color: #181818;
   padding: 1rem;
@@ -72,12 +80,11 @@
 
 .dark-Home {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: column;
   background-color: #181818;
   color: white;
   width: 100vw;
-  height: auto;
 }
 
 .dark-content {
@@ -133,18 +140,41 @@
   color: rgb(128, 128, 128);
 }
 
-.dark-links {
+.dark-links-big {
   color: white;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   font-size: 25px;
 }
 
+.dark-links {
+  color: white;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
 .dark-Name {
   margin: 0;
 }
 
+.dark-Footer {
+  bottom: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 32, 32);
+}
+
+.dark-question-mark {
+  color: rgb(10, 10, 10);
+}
+
 /* Light Theme */
+
+.light-App {
+  height: 100vh;
+  background-color: white;
+}
 
 .light-Header {
   display: flex;
@@ -224,16 +254,35 @@
   color: rgb(128, 128, 128);
 }
 
-.light-links {
+.light-links-big {
   color: black;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   font-size: 25px;
 }
 
+.light-links {
+  color: black;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
 .light-Name {
   margin: 0;
   color: black;
+}
+
+.light-Footer {
+  bottom: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.light-question-mark {
+  color:rgb(128, 128, 128);
 }
 
 /* Overlay for images*/
@@ -266,4 +315,33 @@
 .img-container:hover .img-overlay {
   opacity: 1;
 
+}
+
+#Contact {
+  height: 75vh;
+}
+
+#Projects {
+  height: 75vh;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visibility-button {
+  width: fit-content;
+  border-color: transparent;
+  background-color: transparent;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.visible {
+  margin: 1rem;
+}
+
+.visibility-button-div {
+  display:flex;
+  justify-content: center;
 }
