@@ -58,7 +58,7 @@ const Contact = ({ CSSTheme }) => {
           <br />
         </p>
         <div className={currentVisible()}>
-          <h2 className={CSSTheme + "-no-margin"}>Other</h2>
+          <h2 className="Other">Other</h2>
           <FontAwesomeIcon
             icon={faSteam}
             className={CSSTheme + "-ContactIcon"}

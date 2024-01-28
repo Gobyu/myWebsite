@@ -3,10 +3,8 @@ import React from "react";
 const AboutMe = ({ CSSTheme }) => {
   return (
     <>
-      <h1 className="SectionTitle" id={CSSTheme + "-Top"}>
-        John Zhao
-      </h1>
-      <div id="AboutMe">
+      <div id="Gobyu">
+        <h1 className="SectionTitle">John Zhao</h1>
         <img
           src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/selfie.jpg?raw=true"
           className="Selfie"
@@ -16,7 +14,7 @@ const AboutMe = ({ CSSTheme }) => {
           className="Selfie"
         ></img>
       </div>
-      <div>
+      <div id="AboutMe">
         <p className={CSSTheme + "-content"}>
           Hi, my name is John. I am currently enrolled in my Honours Bachelor of
           Software Development

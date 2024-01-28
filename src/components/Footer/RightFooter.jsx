@@ -5,9 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const RightFooter = () => {
   return (
     <div className="right-footer">
-      <FontAwesomeIcon icon={faHeart} /> ω <FontAwesomeIcon icon={faHeart} />
+      <FontAwesomeIcon icon={faHeart} className="heart" /> ω{" "}
+      <FontAwesomeIcon icon={faHeart} className="heart" />
       <br />
-      can my tax returns come in already
+      Keep Yourself Safe.
+      <br />
+      Yes, you.
     </div>
   );
 };

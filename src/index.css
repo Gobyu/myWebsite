@@ -18,10 +18,14 @@ a {
   font-weight: 500;
   color: #ffffff;
   text-decoration: inherit;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 a:hover {
-  color: #a0a0a0;
+  color: #3252a8;
 }
 
 body {
