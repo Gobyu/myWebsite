@@ -25,6 +25,13 @@ const Life = ({ CSSTheme }) => {
             />
             <p className="img-overlay">Can someone translate this?</p>
           </div>
+          <div className="img-container">
+            <img
+              src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/CLK.jpg?raw=true"
+              className="life-image"
+            />
+            <p className="img-overlay">舞 狮</p>
+          </div>
         </div>
         <div className="columns">
           <div className="img-container">
@@ -48,6 +55,13 @@ const Life = ({ CSSTheme }) => {
             />
             <p className="img-overlay">Where's my fuckin son</p>
           </div>
+          <div className="img-container">
+            <img
+              src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/mycat3.jpg?raw=true"
+              className="life-image"
+            />
+            <p className="img-overlay">❤️ ❤️ ❤️</p>
+          </div>
         </div>
         <div className="columns">
           <div className="img-container">
@@ -68,6 +82,13 @@ const Life = ({ CSSTheme }) => {
               className="life-image"
             />
             <p className="img-overlay">Stop it, get some help.</p>
+          </div>
+          <div className="img-container">
+            <img
+              src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/coco_art2.jpg?raw=true"
+              className="life-image"
+            />
+            <p className="img-overlay">红 豆 奶 绿</p>
           </div>
         </div>
         <div className="columns">
@@ -93,6 +114,13 @@ const Life = ({ CSSTheme }) => {
               className="life-image"
             />
             <p className="img-overlay">:&#40;</p>
+          </div>
+          <div className="img-container">
+            <img
+              src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/dino.jpg?raw=true"
+              className="life-image"
+            />
+            <p className="img-overlay">🦖 🦖 🦖</p>
           </div>
         </div>
       </div>

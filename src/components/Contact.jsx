@@ -68,7 +68,7 @@ const Contact = ({ CSSTheme }) => {
             target="_blank"
             className={CSSTheme + "-links"}
           >
-            &nbsp;gobyu
+            &nbsp;Gobyu
           </a>
           <br />
           <FontAwesomeIcon
