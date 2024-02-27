@@ -3,14 +3,12 @@ import React from "react";
 export const Seneca = ({ CSSTheme }) => {
   return (
     <div className={CSSTheme + "-SectionComponent"}>
-      <div className="-SectionImageDiv">
         <a href="https://senecapolytechnic.ca" target="_blank">
           <img
             src="https://github.com/Gobyu/Gobyu.github.io/blob/main/assets/seneca.png?raw=true"
             className="SectionImage"
           />
         </a>
-      </div>
       <div className={CSSTheme + "-SectionDetails"}>
         <h2 className={CSSTheme + "-no-margin"}>Seneca Polytechnic</h2>
         <p className={CSSTheme + "-no-margin"}>

@@ -8,9 +8,11 @@ const RightFooter = () => {
       <FontAwesomeIcon icon={faHeart} className="heart" /> ω{" "}
       <FontAwesomeIcon icon={faHeart} className="heart" />
       <br />
-      Keep Yourself Safe.
+      我操! Michael I told you be careful!
       <br />
-      Yes, you.
+      You have big eyes, small face, I like.
+      <br />
+      What your WeChat?
     </div>
   );
 };
